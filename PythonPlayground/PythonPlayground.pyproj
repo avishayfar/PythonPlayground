@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a78cd061-226a-41b9-8bbb-458e41e7f364</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonPlayground.py</StartupFile>
+    <StartupFile>CreateDbFromExcel.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonPlayground.py" />
+    <Compile Include="CreateDb.py" />
+    <Compile Include="CreateDbFromExcel.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
