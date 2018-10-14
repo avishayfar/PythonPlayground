@@ -3,6 +3,7 @@ from sqlalchemy import *
 
 
 db = create_engine('postgresql://postgres:Qwe12345@localhost:5432/FRD')
+#engine = sa.create_engine('mssql+pymssql://sa:Qwe12345d@WILAF250128-M7Y/Test')
 
 
 db.echo = False  # Try changing this to True and see what happens
